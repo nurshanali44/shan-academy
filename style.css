@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*header */
+.header {
+  background-color: #4a154b;
+  padding: 18px 0;
+}
+
+.banner-text {
+  color: #ffffff;
+  font-size: 25px;
+  margin: 0;
+}
+.banner-text i {
+  color: #2e7d32;
+  margin-right: 8px;
+}
+.header ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 22px;
+}
+
+.header ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 550;
+  transition: color 0.4s ease;
+}
+
+.header ul li a:hover {
+  color: #2e7d32;
+}
