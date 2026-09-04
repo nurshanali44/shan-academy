@@ -37,3 +37,44 @@
 .header ul li a:hover {
   color: #2e7d32;
 }
+/*end header*/
+/*hero section */
+.hero-section {
+  background-color: #f8f9fa;
+  padding: 65px 0;
+}
+.hero-title {
+  color: #4a154b;
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+.hero-text {
+  font-size: 1.4rem;
+  line-height: 1.8;
+  margin-bottom: 30px;
+}
+.hero-btn {
+  display: inline-block;
+  background-color: #2e7d32;
+  text-decoration: none;
+  padding: 12px 25px;
+  color: #ffffff;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  font-weight: bold;
+}
+.hero-btn:hover {
+  background-color: #4a154b;
+  color: #fff;
+  transform: translateY(-4px);
+}
+.hero-img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.5s ease;
+}
+.hero-img:hover {
+  transform: scale(1.04);
+}
+/*end hero section */
